@@ -1,8 +1,9 @@
-// 이 파일은 프로젝트의 진입점 entry point = 앱파일
 
 const express = require('express')
 const expressHandlebars =require('express-handlebars')
 const app = express()
+const bodyParser = require('body-parser')
+const multiparty = require('multiparty')
 const port =process.env.PORT || 3000
 
 
@@ -15,6 +16,10 @@ app.engine('handlebars', expressHandlebars({
 app.set('view engine', 'handlebars')
 //홈페이지 레이아웃 
 app.get('/',(req,res)=> res.render('home'))
+
+
+
+
 //로그인 레이아웃 
 app.get('/login',(req,res)=>res.render('login'))
 //회원가입 레이아웃
