@@ -1,0 +1,26 @@
+{
+  "name": "230328login_prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiny43/230328Login_prac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiny43/230328Login_prac/issues"
+  },
+  "homepage": "https://github.com/jiny43/230328Login_prac#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "multiparty": "^4.2.3",
+    "nodemon": "^2.0.22"
+  }
+}
